@@ -1,0 +1,26 @@
+{
+  "name": "dslink-java-v2-logging-prototype",
+  "version": "1.0.0",
+  "dsa-version": "1.0",
+  "description": "Prototype of log manager feature",
+  "main": "bin/dslink-java-v2-logging-prototype",
+  "configs": {
+    "broker": {
+      "type": "url"
+    },
+    "handler_class": {
+      "type": "string",
+      "value": "org.iot.dsa.dslink.logging.MainNode"
+    },
+    "log": {
+      "desc": "all, trace, debug, fine, warn, info, error, admin, fatal, none",
+      "type": "enum",
+      "value": "info"
+    },
+    "token": {
+      "desc": "Authentication token for the broker.",
+      "type": "string",
+      "value": null
+    }
+  }
+}
