@@ -27,7 +27,7 @@ dependencies {
 	//compile 'org.iot-dsa:dslink-core:+'
     //compile 'org.iot-dsa:dslink-websocket-standalone:+'
 	//compile 'org.glassfish.tyrus.bundles:tyrus-standalone-client:1.13'
-	compile 'com.github.iot-dsa-v2:sdk-dslink-java-v2:develop-SNAPSHOT'
+	compile 'com.github.iot-dsa-v2:sdk-dslink-java-v2:aaron180712-SNAPSHOT'
 
     testCompile 'junit:junit:4.12'
     testCompile 'org.mockito:mockito-all:+'
